@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylo's</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #3a506b; /* Azul mate */
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            background-image: url('https://via.placeholder.com/1200x400'); /* Cambiar por una imagen real */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .sections {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .section h2 {
+            color: #3a506b;
+            margin-top: 15px;
+        }
+        .section p {
+            color: #555;
+            margin: 10px 0 20px;
+        }
+        .section a {
+            background-color: #3a506b;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #3a506b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/path/to/logo.png" alt="Stylo's Logo">
+        <nav>
+            <ul>
+                <li><a href="#estetica">Estética</a></li>
+                <li><a href="#manicure">Manicure</a></li>
+                <li><a href="#reparacion">Reparación</a></li>
+                <li><a href="#nieves">Nieves</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h1>Bienvenido a Stylo's</h1>
+    </div>
+
+    <div class="sections">
+        <div class="section" id="estetica">
+            <img src="https://via.placeholder.com/300" alt="Estética">
+            <h2>Stylo's Estética</h2>
+            <p>Cortes de cabello, efectos de color, peinados y más.</p>
+            <a href="#">Ver más</a>
+        </div>
+        <div class="section" id="manicure">
+            <img src="https://via.placeholder.com/300" alt="Manicure">
+            <h2>Stylo's Manicure</h2>
+            <p>Manicure, pedicure, pestañas y uñas gelish.</p>
+            <a href="#">Ver más</a>
+        </div>
+        <div class="section" id="reparacion">
+            <img src="https://via.placeholder.com/300" alt="Reparación">
+            <h2>Stylo's Reparación</h2>
+            <p>Reparación y desbloqueo de teléfonos.</p>
+            <a href="#">Ver más</a>
+        </div>
+        <div class="section" id="nieves">
+            <img src="https://via.placeholder.com/300" alt="Nieves">
+            <h2>Stylo's Nieves</h2>
+            <p>Consulta los sabores disponibles para mañana.</p>
+            <a href="#">Ver más</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Stylo's. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
